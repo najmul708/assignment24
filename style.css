@@ -1,0 +1,737 @@
+/* start header */
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background: rgba(1,1,1,.5);
+}
+img{
+    max-width: 100%;
+}
+.header-menu ul {
+    margin-bottom: 0;
+}
+.header-menu ul li {
+    display: inline-block;
+    line-height: 64px;
+    margin-left: -4px;
+}
+.header-menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 1px 10px;
+    font-weight: 600;
+    color: white;
+    transition: .5s;
+    z-index: -1;
+}
+.header-menu ul li a:hover {
+    color: black;
+}
+/* end header */
+
+/* start banner */
+.banner{
+    background: url(./img/slider2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 170px 0;
+}
+.banner-text {
+    padding: 44px 75px 74px;
+}
+.banner-text h1 {
+    font-size: 70px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: white;
+}
+.banner-text p {
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+.banner-text a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .5s;
+}
+.banner-text a:hover{
+    color: black;
+    background: #0078b9;
+    border: none;
+}
+/* end banner */
+
+/* start banner2 */
+.banner2 h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: #131313;
+    text-shadow: 4px 4px 2px #d5d5d5;
+}
+.banner2 p {
+    font-size: 14px;
+    padding: 0 106px;
+    color: darkgray;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+.banner2 a {
+    text-decoration: none;
+    background: #6e5cfc;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: .5s;
+}
+.banner2 a:hover {
+    background: black;
+}
+/* end banner2 */
+
+/* start service */
+.service{
+    background: #6b62fb;
+}
+.icon-div {
+    height: 90px;
+    width: 90px;
+    background: white;
+    transform: rotate(45deg);
+    margin-left: 125px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    font-size: 50px;
+}
+.icon-div img{
+    transform: rotate(-45deg);
+}
+.service h2 {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+}
+
+.service h2::after {
+    content: "";
+    top: 65px;
+    left: 139px;
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    background: #f4f0f0;
+}
+.service p {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.service a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    transition: .4s;
+    padding: 10px 20px;
+}
+.service a:hover {
+    border: 1px solid white;
+}
+/* end service */
+
+/* start service2 */
+.top-1 h2 {
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 3px 3px 2px #4848485c;
+}
+.top-1 p {
+    font-size: 18px;
+    color: #484747;
+    margin: 40px 0;
+}
+.service-content h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+.service-content p{
+    color: #484747;
+}
+/* end service2 */
+
+/* start service3 */
+.service-3{
+    background-image: url(./img/feature-3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+.service-3 h1 {
+    font-size: 52px;
+    font-weight: 600;
+    text-shadow: 5px 5px 4px black;
+    font-family: Assistant;
+}
+.service-3 p{
+    font-size: 20px;
+    margin: 30px 0;
+}
+.service-3 a {
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 12px 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: .5s;
+}
+.service-3 a:hover{
+    color: black;
+    border: 1px solid black;
+}
+/* end service3 */
+
+/* start service4 */
+.top-4 h1 {
+    font-family: Assistant;
+    font-size: 45px;
+    font-weight: 600;
+    text-shadow: 4px 4px 2px #dedede;
+    text-align: center;
+}
+.top-4 p{
+    padding: 20px 105px;
+    text-align: center;
+}
+
+.number {
+    height: 60px;
+    width: 60px;
+    transform: rotate(45deg);
+    font-size: 40px;
+    background: #ff9000;
+    position: relative;
+}
+.number-3 {
+    height: 60px;
+    width: 60px;
+    transform: rotate(45deg);
+    font-size: 40px;
+    background: #ff9000;
+}
+.number::after {
+    content: "";
+    top: 48px;
+    left: 85px;
+    height: 77px;
+    width: 2px;
+    background: #ff9000;
+    position: absolute;
+    transform: rotate(-45deg);
+
+}
+.number h1{
+    transform: rotate(-45deg);
+    color: white;
+    margin-left: 15px;
+    font-size: 25px;
+}
+.number-3 h1{
+    transform: rotate(-45deg);
+    color: white;
+    margin-left: 15px;
+    font-size: 25px;
+}
+.bottom-4 h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.bottom-4 p {
+    font-size: 14px;
+    color: darkgray;
+    font-weight: 600;
+}
+/* end service4 */
+
+/* start service5 */
+.service-5{
+    background: #6e5cfc;
+}
+.top-5 h2{
+    font-family: Assistant;
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+}
+.top-5 p{
+    text-align: center;
+    color: antiquewhite;
+    padding: 20px 104px;
+}
+.bottom-5 h2{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+.bottom-5:hover{
+  color: black;
+  background: white;
+}
+.bottom-5 {
+    height: 365px;
+    width: 274px;
+    border: 1px solid white;
+    padding: 40px 28px 50px;
+    color: white;
+    margin-bottom: -1px;
+    transition: .5s;
+}
+.bottom-5 p{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.bottom-5 a{
+    text-decoration: none;
+    font-size: 14px;
+    color: currentColor;
+    font-weight: 600;
+}
+.b-2{
+    margin-left: -12px;
+}
+.b-3{
+    margin-left: -24px;
+}
+.b-4{
+    margin-left: -36px;
+}
+/* end service5 */
+
+/* start service6 */
+.top-6 h2 {
+    font-size: 50px;
+    font-family: Assistant;
+    font-weight: 600;
+    text-shadow: 4px 4px 2px #d2d0d0;
+}
+.top-6 p {
+    padding: 20px 164px;
+    color: darkgray;
+    font-weight: 600;
+    font-size: 14px;
+}
+.card{
+    margin: -10px -45px 41px 56px;
+}
+.bottom-6 h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 19px;
+    margin: 10px 0;
+}
+.bottom-6 p {
+    font-size: 16px;
+    color: darkgray;
+}
+.poly{
+    height: 174px;
+}
+.con{
+    height: 174px;
+}
+.ev{
+    height: 154px;
+}
+/* end service6 */
+
+/* start service-7 */
+
+.service-7{
+    background: slateblue;
+    color: white;
+}
+.top-service h2{
+    font-family: Assistant;
+    font-weight: 600;
+    font-size:50px ;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.fix-width{
+    max-width: 1120px;
+    margin: auto;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.left-service{
+    float: left;
+    width: 27%;
+}
+.right-service{
+    float: right;
+    width: 27%;
+}
+.right-service a{
+    color: white;
+}
+.left-service a{
+    color: white;
+}
+.left-left{
+    float: left;
+    width: 80%;
+    border-bottom: 1px dashed ;
+    margin-bottom: 40px;
+}
+.left-1 h2{
+    font-size: 23px;
+    font-weight: 600;
+    text-align: right;
+}
+.left-1-1 p{
+    font-size: 14px;
+    text-align: right;
+}
+.right-right {
+    float: right;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    line-height: 36px;
+}
+.shopon{
+    padding-top: 28px;
+}
+.center-service{
+    display: inline-block;
+    text-align: center;
+}
+.center-service img{
+    height: 730px;
+    width: auto;
+}
+/* end service-7 */
+
+/* start service-8 */
+.top-8 h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Assistant;
+    font-weight: 600;
+    text-shadow: 4px 4px 2px #d0cbcb;
+}
+.bottom-8-text h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+.bottom-8-text p {
+    font-size: 15px;
+    color: darkgray;
+    margin: 20px 0;
+}
+.bottom-8-text a {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 14px;
+    font-weight: 600;
+    transition: .5s;
+}
+.bottom-8-text a:hover {
+    color: black;
+}
+
+.end-8 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px 35px;
+    border-radius: 30px;
+    background: #6e5cfc;
+    color: white;
+    transition: .5s;
+}
+.end-8 a:hover{
+    background: black;
+}
+
+/* end service-8 */
+
+/* start service-9 */
+.left-9 img{
+    margin-bottom: 30px;
+}
+.left-9 h4 {
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.as{
+    height: 192px;
+}
+.service-9{
+    background-image: url(./img/main_bg\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: fixed;
+}
+/* end service-9 */
+
+/* start service-10 */
+.img-text{
+    position: relative;
+}
+.img-text img{
+    width: 100%;
+    height: 100%;
+}
+.img-hov{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    color: tomato;
+    width: 0;
+    height: 0;
+    background: rgba(82, 228, 82, 0.4);
+    visibility: hidden;
+    transition: .5s;
+    opacity: 0
+}
+.img-hov a{
+    padding: 0 11px;
+}
+.abab:hover .img-hov{
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+.bottom-10 h2{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+.bottom-10 h2:hover{
+    color: #318dfd;
+}
+.bottom-10 p{
+    font-size: 13px;
+    font-weight: 600;
+    color: darkgray;
+}
+.service-10 h1{
+    font-family: Assistant;
+    font-weight: 600;
+    font-size: 55px;
+    margin-bottom: 50px;
+}
+/* end service-10 */
+
+/* start service-11 */
+.service-11{
+    background: #6c61fb;
+    padding: 0 280px;
+}
+.top-11 h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    font-family: Assistant;
+}
+.top-11 p{
+    color: white;
+}
+.left-11{
+    float: left;
+    width: 80%;
+}
+.right-11{
+    float: right;
+    width: 20%;
+    text-align: right;
+}
+.left-faka-11{
+    width: 100%;
+    height: 10px;
+    background: #ff9000;
+    border-radius: 10px;
+    margin-left: 3px;
+}
+.right-faka-11{
+    width: 100%;
+    height: 10px;
+    background: white ;
+    border-radius: 0 8px 8px 0;
+}
+.AA{
+    width: 90%;
+}
+.BB{
+    width: 85%;
+}
+.aa{
+    width: 10%;
+}
+.bb{
+    width: 15%;
+}
+/* end service-11 */
+
+/* start service-12 */
+.top-12 h2{
+    font-family: Assistant;
+    font-size: 48px;
+    text-shadow: 3px 3px 4px burlywood;
+}
+.top-12 ul{
+    padding: 50px 0;
+}
+.top-12 ul li{
+    display: inline-block;
+}
+.top-12 ul li a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 18px;
+    color: currentColor;
+}
+.top-12 ul li:first-child{
+    background: #228fec;
+    color: white !important;
+}
+.bottom-12-img img{
+    height: 100%;
+    width: 330px;
+}
+/* end service-12 */
+
+/* start service-13 */
+.service-13{
+    background: #f7f7f7;
+}
+.top-13 h2 {
+    font-size: 45px;
+    font-family: Assistant;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px cadetblue;
+}
+.top-13 p{
+    color: darkgray;
+}
+.ser-13{
+    padding: 46px;
+}
+.bottom-13 img{
+    height: 77px;
+    border-radius: 100%;
+    margin-bottom: 25px;
+}
+.bottom-13 p{
+    color: darkgray;
+}
+.bottom-13 h5{
+    font-size: 19px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.bottom-13 div {
+    height: 3px;
+    width: 60px;
+    background: #e8e7e7;
+    margin: auto;
+        margin-top: auto;
+    margin-top: 50px;
+}
+/* end service-13 */
+
+/* start service-14 */
+.service-14{
+    background-image: url(./img/main_bg\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.top-14 h2 {
+    font-family: Assistant;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px;
+    text-align: center;
+}
+.service-14-left p {
+    margin: 20px 0;
+    color: darkgray;
+    font-weight: 600;
+    font-size: 16px;
+}
+.service-14-left i {
+    display: inline-block;
+    margin-right: 32px;
+    font-size: 30px;
+    color: white;
+}
+.service-14-left h2 {
+    display: inline-block;
+    font-size: 35px;
+    font-family: Assistant;
+    color: white;
+}
+.service-14-right{
+    background: white;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+.sub{
+    text-align: center;
+    margin: 50px 0;
+}
+.sub a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #6e5cfc;
+    padding: 13px 30px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 20px;
+    color: white;
+}
+/* end service-14 */
+
+/* start footer */
+.footer-div {
+    background: black;
+}
+.footer-div h3 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+/* end footer */
